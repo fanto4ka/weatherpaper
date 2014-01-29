@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/weatherpaper/build/source/aidl/debug" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/weatherpaper/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/weatherpaper/src/main/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/weatherpaper/src/main/assets" />
+      </configuration>
+    </facet>
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":weatherpaper" />
+        <option name="PROJECT_ABSOLUTE_PATH" value="E:\Android_Coding\weatherpaper" />
+        <option name="GRADLE_HOME_DIR_PATH" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/weatherpaper">
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/build/source/r/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/build/source/aidl/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/build/source/rs/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/build/source/buildConfig/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/build/res/rs/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/build/source/r/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/build/source/aidl/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/build/source/rs/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/build/source/buildConfig/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/build/res/rs/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/debug/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/debug/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/debug/res" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/debug/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/main/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/main/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/main/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/main/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/main/res" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/instrumentTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/instrumentTest/assets" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/instrumentTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/instrumentTest/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/instrumentTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/instrumentTest/res" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/weatherpaper/src/instrumentTest/resources" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/weatherpaper/build/apk" />
+      <excludeFolder url="file://$MODULE_DIR$/weatherpaper/build/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/weatherpaper/build/bundles" />
+      <excludeFolder url="file://$MODULE_DIR$/weatherpaper/build/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/weatherpaper/build/dependency-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/weatherpaper/build/exploded-bundles" />
+      <excludeFolder url="file://$MODULE_DIR$/weatherpaper/build/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/weatherpaper/build/libs" />
+      <excludeFolder url="file://$MODULE_DIR$/weatherpaper/build/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/weatherpaper/build/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/weatherpaper/build/tmp" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android 4.2.2" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="android-support-v4" level="project" />
+  </component>
+</module>
+
