@@ -1,12 +1,17 @@
 package com.example.weatherpaper;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.app.Activity;
+import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
 
 public class ParseActivity extends Activity {
+
+    final String CITY = "city";
+    final String prefs = "prefs";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,8 +24,14 @@ public class ParseActivity extends Activity {
             public void onFocusChange(View view, boolean hasFocus){
                 if (!hasFocus){
                     String city = city_val.getText().toString();
+                    SharedPreferences SP = getSharedPreferences(prefs,MODE_PRIVATE);
+                    SharedPreferences.Editor  ed = SP.edit();
+                    ed.putString(CITY, city);
+                    ed.commit();
+                    String prefCity = SP.getString(CITY, "");
+
                     parser parser = new parser();
-                    parser.setCity(city);
+                    parser.setCity(prefCity);
                     parser.execute();
                 }
             }
