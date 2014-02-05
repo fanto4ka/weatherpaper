@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState />
+    </option>
+  </component>
   <component name="AndroidLayouts">
     <shared>
       <config />
@@ -10,26 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3818a064-0c57-41c2-9f54-e2d5051034c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weatherpaper/src/main/java/com/example/weatherpaper/Locator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/drawable-hdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/drawable-mdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/drawable-xhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/drawable-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/drawable-xxhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weatherpaper/build/source/buildConfig/debug/com/example/weatherpaper/BuildConfig.java" afterPath="$PROJECT_DIR$/weatherpaper/build/source/buildConfig/debug/com/example/weatherpaper/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weatherpaper/build/source/r/debug/com/example/weatherpaper/R.java" afterPath="$PROJECT_DIR$/weatherpaper/build/source/r/debug/com/example/weatherpaper/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/layout/activity_parse.xml" afterPath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/layout/activity_parse.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weatherpaper/src/main/java/com/example/weatherpaper/Locator.java" afterPath="$PROJECT_DIR$/weatherpaper/src/main/java/com/example/weatherpaper/Locator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weatherpaper/build.gradle" afterPath="$PROJECT_DIR$/weatherpaper/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/menu/parse.xml" afterPath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/menu/parse.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/values-sw720dp-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/weatherpaper/build/res/all/debug/values-v14/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weatherpaper-weatherpaper.iml" afterPath="$PROJECT_DIR$/weatherpaper-weatherpaper.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weatherpaper.iml" afterPath="$PROJECT_DIR$/weatherpaper.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weatherpaper.iws" />
@@ -48,43 +36,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/weatherpaper/src/main/java/com/example/weatherpaper/ServiceHandler.java" line="2" class="ServiceHandler.java" package="">
         <option name="ENABLED" value="true" />
@@ -132,6 +83,43 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -152,10 +140,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Locator.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Locator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/weatherpaper/src/main/java/com/example/weatherpaper/Locator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="31" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1870">
+            <state line="55" column="84" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.7702703" vertical-offset="308" max-vertical-offset="1904">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,46 +151,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gradlew.bat" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew.bat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/weatherpaper/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.47279322" vertical-offset="0" max-vertical-offset="827">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WallService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weatherpaper/src/main/java/com/example/weatherpaper/WallService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="5" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="663">
+            <state line="23" column="5" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -211,7 +163,7 @@
       <file leaf-file-name="parser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weatherpaper/src/main/java/com/example/weatherpaper/parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1207">
+            <state line="24" column="0" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="1003">
               <folding />
             </state>
           </provider>
@@ -220,10 +172,8 @@
       <file leaf-file-name="ParseActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weatherpaper/src/main/java/com/example/weatherpaper/ParseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="952">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="32" column="0" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="850">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -316,7 +266,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -346,20 +295,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="weatherpaper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weatherpaper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weatherpaper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="gradle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -370,22 +305,24 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="115" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="132" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="136" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="136" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="218" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="139" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="818" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="811" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="818" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="132" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="125" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -397,8 +334,8 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -576,7 +513,11 @@
       <created>1391020911025</created>
       <updated>1391020911026</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1st">
+      <created>1391529970911</created>
+      <updated>1391529970911</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -609,12 +550,14 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.73239434" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.73239434" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26611957" sideWeight="0.49918962" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26611957" sideWeight="0.5008104" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -627,7 +570,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -698,18 +640,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/View.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="19" selection-start="10923" selection-end="10923" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherpaper/src/main/java/com/example/weatherpaper/WallService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4945055" vertical-offset="816" max-vertical-offset="2890" />
@@ -735,16 +665,37 @@
         <state line="12" column="40" selection-start="824" selection-end="824" vertical-scroll-proportion="0.020556228" vertical-offset="187" max-vertical-offset="1343" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weatherpaper/src/main/java/com/example/weatherpaper/parser.java">
+    <entry file="file://$PROJECT_DIR$/weatherpaper/src/main/java/com/example/weatherpaper/ServiceHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state line="14" column="13" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weatherpaper/src/main/java/com/example/weatherpaper/ServiceHandler.java">
+    <entry file="file://$PROJECT_DIR$/weatherpaper/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state line="23" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.47279322" vertical-offset="0" max-vertical-offset="827">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
           <folding />
         </state>
       </provider>
@@ -758,49 +709,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/weatherpaper/src/main/java/com/example/weatherpaper/WallService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weatherpaper/src/main/java/com/example/weatherpaper/parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/weatherpaper/src/main/java/com/example/weatherpaper/ParseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="952">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weatherpaper/src/main/res/layout/activity_parse.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="13" column="37" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weatherpaper/src/main/java/com/example/weatherpaper/Locator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="31" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1870">
+        <state line="55" column="84" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.7702703" vertical-offset="308" max-vertical-offset="1904">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherpaper/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.47279322" vertical-offset="0" max-vertical-offset="827">
-          <folding />
         </state>
       </provider>
     </entry>

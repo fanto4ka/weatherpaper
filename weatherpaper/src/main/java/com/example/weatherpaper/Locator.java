@@ -79,6 +79,8 @@ public class Locator implements LocationListener{
     }
 
     public double GetLongitude(){
+
+        GetLocation();
         return this.location.getLongitude();
     }
 
