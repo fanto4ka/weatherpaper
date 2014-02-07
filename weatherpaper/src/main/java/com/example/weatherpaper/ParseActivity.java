@@ -3,6 +3,7 @@ package com.example.weatherpaper;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.app.Activity;
+import android.os.Looper;
 import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.View;
@@ -12,6 +13,7 @@ public class ParseActivity extends Activity {
 
     final String CITY = "city";
     final String prefs = "prefs";
+    Looper myLooper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,9 +32,11 @@ public class ParseActivity extends Activity {
                     ed.commit();
                     String prefCity = SP.getString(CITY, "");
 
+
                     parser parser = new parser();
                     parser.setCity(prefCity);
                     parser.execute();
+
                 }
             }
         });

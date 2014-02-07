@@ -1,6 +1,7 @@
 package com.example.weatherpaper;
 
 import android.os.AsyncTask;
+import android.os.Looper;
 import android.util.Log;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
@@ -31,35 +32,41 @@ public class parser extends AsyncTask<Void, Void, Void> {
     protected void onPreExecute() {
         super.onPreExecute();
         // Showing progress dialog
+
     }
 
     @Override
     protected Void doInBackground(Void... arg0) {
 
         JSONArray jArr = null;
+        Looper.prepare();
         ServiceHandler sh = new ServiceHandler();
-        String response = sh.ServiceHandlerCall(city);
+        String response = sh.ServiceHandlerCall();
 
         if(response != null){
-        try{
-            JSONObject jString = new JSONObject(response);
-            jArr = jString.getJSONObject("data").getJSONArray("current_condition");
-            JSONObject jObj = jArr.getJSONObject(0);
-            String weatherCode = jObj.getString("weatherCode");
-            String response2 = "";
+            try{
+                JSONObject jString = new JSONObject(response);
+                jArr = jString.getJSONObject("data").getJSONArray("current_condition");
+                JSONObject jObj = jArr.getJSONObject(0);
+                String weatherCode = jObj.getString("weatherCode");
+                String response2 = "";
+                Looper.getMainLooper().quit();
 
-        }
-        catch(JSONException e) {
-            e.printStackTrace();
-        }
-
+            }
+            catch(JSONException e) {
+                e.printStackTrace();
+            }
         }
         return null;
     }
 
-    /*protected void onPostExecute(String result) {
-        super.onPostExecute(result);
+    protected void onPostExecute(String result) {
+        /*super.onPostExecute(result);
         Log.d("Out:", weatherCode);
-        String response2 = "";
-    } */
+        String response2 = ""; */
+
+
+
+
+    }
 }

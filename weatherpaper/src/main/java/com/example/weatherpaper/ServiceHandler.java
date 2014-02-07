@@ -1,5 +1,11 @@
 package com.example.weatherpaper;
 
+import android.app.Activity;
+import android.content.Context;
+import android.location.Location;
+import android.location.LocationManager;
+import android.telephony.cdma.CdmaCellLocation;
+
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.methods.HttpGet;
@@ -12,12 +18,29 @@ import java.io.UnsupportedEncodingException;
 /**
  * Created by Fanta on 11.01.14.
  */
-public class ServiceHandler {
+public class ServiceHandler extends Activity {
     String uri = "";
     String response = "";
-    public String ServiceHandlerCall(String city){
+    String latitude;
+    String longitude;
 
-        uri = "http://api.worldweatheronline.com/free/v1/weather.ashx?key=gk8bxhpt8vajvwda59dtqzj9&q="+ city +"&fx=no&format=json";
+    LocationManager mLocManager;
+    Locator locator;
+    Location location;
+    Context mContext;
+
+    public String ServiceHandlerCall(){
+
+        mLocManager = (LocationManager) mContext.getSystemService(Context.LOCATION_SERVICE);
+        location = mLocManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+        locator = new Locator(ServiceHandler.this);
+
+
+        locator.GetLocation();
+        latitude = String.valueOf(locator.GetLatitude()).substring(0,5);
+        longitude = String.valueOf(locator.GetLongitude()).substring(0,5);
+
+        uri = "http://api.worldweatheronline.com/free/v1/weather.ashx?key=gk8bxhpt8vajvwda59dtqzj9&q="+latitude+","+longitude+"&fx=no&format=json";
     try{
         DefaultHttpClient defhttp = new DefaultHttpClient();
         HttpGet get = new HttpGet(uri);

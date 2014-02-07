@@ -25,9 +25,10 @@ public class Locator implements LocationListener{
 
     public Locator(Context context){
         this.mContext = context;
+        GetLocation();
     }
 
-    private Location GetLocation(){
+    protected Location GetLocation(){
         try{
             locationManager = (LocationManager)mContext.getSystemService(Context.LOCATION_SERVICE);
 
@@ -45,10 +46,10 @@ public class Locator implements LocationListener{
                     locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, distance, update_time, this);
                     if (locationManager != null){
                         location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
-                        if (location != null){
+                    /*    if (location != null){
                             latitude = location.getLatitude();
                             longitude = location.getLongitude();
-                        }
+                        }*/
                     }
                 }
 
@@ -56,10 +57,10 @@ public class Locator implements LocationListener{
                     locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, distance, update_time, this);
                     if (locationManager != null){
                         location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-                        if (location != null){
+                     /*   if (location != null){
                             latitude = location.getLatitude();
                             longitude = location.getLongitude();
-                        }
+                        }*/
                     }
                 }
 
@@ -73,14 +74,12 @@ public class Locator implements LocationListener{
 
     public double GetLatitude(){
 
-        GetLocation();
         return this.location.getLatitude();
 
     }
 
     public double GetLongitude(){
 
-        GetLocation();
         return this.location.getLongitude();
     }
 
