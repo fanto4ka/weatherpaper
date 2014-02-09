@@ -4,7 +4,6 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.app.Activity;
 import android.os.Looper;
-import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
@@ -33,9 +32,8 @@ public class ParseActivity extends Activity {
                     String prefCity = SP.getString(CITY, "");
 
 
-                    parser parser = new parser();
-                    parser.setCity(prefCity);
-                    parser.execute();
+                    Parser Parser = new Parser(ParseActivity.this);
+                    Parser.execute();
 
                 }
             }

@@ -30,4 +30,4 @@
             android:layout_above="@+id/city" android:layout_alignLeft="@+id/city"/>
 
 </RelativeLayout>
-<!-- From: file:/C:/Users/skozyrev/Desktop/android_labs/weatherpaper/weatherpaper/src/main/res/layout/activity_parse.xml -->
+<!-- From: file:/C:/Users/Fanta/Desktop/weatherpaper/weatherpaper/src/main/res/layout/activity_parse.xml -->

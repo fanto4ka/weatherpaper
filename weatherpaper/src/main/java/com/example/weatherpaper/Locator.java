@@ -1,10 +1,13 @@
 package com.example.weatherpaper;
 
+import android.app.Activity;
 import android.content.Context;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+
+import java.util.List;
 
 /**
  * Created by skozyrev on 2/4/14.
@@ -20,15 +23,11 @@ public class Locator implements LocationListener{
     private static final long update_time = 1000 * 60 * 3;
 
     Location location;
-    double latitude;
-    double longitude;
+    private double latitude;
+    private double longitude;
 
     public Locator(Context context){
         this.mContext = context;
-        GetLocation();
-    }
-
-    protected Location GetLocation(){
         try{
             locationManager = (LocationManager)mContext.getSystemService(Context.LOCATION_SERVICE);
 
@@ -37,6 +36,35 @@ public class Locator implements LocationListener{
             //check Internet
             isInternet = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
 
+            //List<String> providers = locationManager.getProviders(true);
+            //for (String provider : providers){
+            if (isGPS || isInternet){
+                locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,0,0,this);
+                if (locationManager != null){
+                location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+                }
+                if (location!=null){
+                    latitude = location.getLatitude();
+                    longitude = location.getLongitude();
+                }
+            }
+            //}
+            //check GPS
+            isGPS = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
+            //check Internet
+            isInternet = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    protected Location GetLocation(){
+
+     return this.location;
+
+    }
+/*
             if(!isInternet && !isGPS){
                 //no provider
             }
@@ -46,10 +74,10 @@ public class Locator implements LocationListener{
                     locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, distance, update_time, this);
                     if (locationManager != null){
                         location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
-                    /*    if (location != null){
+                       if (location != null){
                             latitude = location.getLatitude();
                             longitude = location.getLongitude();
-                        }*/
+                        }
                     }
                 }
 
@@ -57,35 +85,34 @@ public class Locator implements LocationListener{
                     locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, distance, update_time, this);
                     if (locationManager != null){
                         location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-                     /*   if (location != null){
+                        if (location != null){
                             latitude = location.getLatitude();
                             longitude = location.getLongitude();
-                        }*/
+                        }
                     }
                 }
 
-            }
-        }
-        catch (Exception e){
-            e.printStackTrace();
-        }
-       return location;
-    }
+            }*/
+
+
+
+
 
     public double GetLatitude(){
 
-        return this.location.getLatitude();
+        return latitude;
 
     }
 
     public double GetLongitude(){
 
-        return this.location.getLongitude();
+        return longitude;
     }
 
     @Override
     public void onLocationChanged(Location location) {
-
+        location.getLatitude();
+        location.getLongitude();
     }
 
     @Override

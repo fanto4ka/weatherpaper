@@ -18,7 +18,7 @@ import java.io.UnsupportedEncodingException;
 /**
  * Created by Fanta on 11.01.14.
  */
-public class ServiceHandler extends Activity {
+public class ServiceHandler{
     String uri = "";
     String response = "";
     String latitude;
@@ -29,18 +29,22 @@ public class ServiceHandler extends Activity {
     Location location;
     Context mContext;
 
+    public ServiceHandler(Context context){
+        this.mContext = context;
+    }
+
     public String ServiceHandlerCall(){
 
-        mLocManager = (LocationManager) mContext.getSystemService(Context.LOCATION_SERVICE);
-        location = mLocManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
-        locator = new Locator(ServiceHandler.this);
 
+        locator = new Locator(mContext);
+        //mLocManager = (LocationManager) mContext.getSystemService(Context.LOCATION_SERVICE);
+        //location = mLocManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
 
-        locator.GetLocation();
-        latitude = String.valueOf(locator.GetLatitude()).substring(0,5);
-        longitude = String.valueOf(locator.GetLongitude()).substring(0,5);
+        //locator.GetLocation();
+        latitude = String.valueOf(locator.GetLatitude())/*.substring(0,5)*/;
+        longitude = String.valueOf(locator.GetLongitude())/*.substring(0,5)*/;
 
-        uri = "http://api.worldweatheronline.com/free/v1/weather.ashx?key=gk8bxhpt8vajvwda59dtqzj9&q="+latitude+","+longitude+"&fx=no&format=json";
+        uri = "http://api.worldweatheronline.com/free/v1/weather.ashx?key=gk8bxhpt8vajvwda59dtqzj9&q="+latitude+","+longitude+"&fx=no&includeLocation=yes&format=json";
     try{
         DefaultHttpClient defhttp = new DefaultHttpClient();
         HttpGet get = new HttpGet(uri);
