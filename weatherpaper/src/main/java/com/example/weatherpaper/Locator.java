@@ -38,21 +38,30 @@ public class Locator implements LocationListener{
 
             //List<String> providers = locationManager.getProviders(true);
             //for (String provider : providers){
-            if (isGPS || isInternet){
-                locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,0,0,this);
-                if (locationManager != null){
-                location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+            if(!isInternet && !isGPS){
+            }
+            else{
+                if (isGPS){
+                    locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,0,0,this);
+                    if (locationManager != null){
+                        location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+                    }
+                    if (location!=null){
+                        latitude = location.getLatitude();
+                        longitude = location.getLongitude();
+                    }
                 }
-                if (location!=null){
-                    latitude = location.getLatitude();
-                    longitude = location.getLongitude();
+                else {
+                    locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,0,0,this);
+                    if (locationManager != null){
+                        location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+                    }
+                    if (location!=null){
+                        latitude = location.getLatitude();
+                        longitude = location.getLongitude();
+                    }
                 }
             }
-            //}
-            //check GPS
-            isGPS = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
-            //check Internet
-            isInternet = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
         }
         catch (Exception e){
             e.printStackTrace();
