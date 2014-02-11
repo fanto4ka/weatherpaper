@@ -10,6 +10,8 @@ import android.widget.EditText;
 
 public class ParseActivity extends Activity {
 
+    ServiceHandler serviceHandler;
+    String response;
     final String CITY = "city";
     final String prefs = "prefs";
     Looper myLooper;
@@ -32,8 +34,13 @@ public class ParseActivity extends Activity {
                     String prefCity = SP.getString(CITY, "");
 
 
-                    Parser Parser = new Parser(ParseActivity.this);
-                    Parser.execute();
+                    serviceHandler = new ServiceHandler(ParseActivity.this);
+                    response = serviceHandler.ServiceHandlerCall();
+
+
+                    //Parser Parser = new Parser(ParseActivity.this);
+                    //Parser.execute();
+                    //Parser.execute();
 
                 }
             }

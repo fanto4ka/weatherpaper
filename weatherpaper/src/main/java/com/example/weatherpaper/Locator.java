@@ -36,12 +36,10 @@ public class Locator implements LocationListener{
             //check Internet
             isInternet = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
 
-            //List<String> providers = locationManager.getProviders(true);
-            //for (String provider : providers){
             if(!isInternet && !isGPS){
             }
             else{
-                if (isGPS){
+                if (!isGPS){
                     locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,0,0,this);
                     if (locationManager != null){
                         location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
@@ -69,52 +67,15 @@ public class Locator implements LocationListener{
     }
 
     protected Location GetLocation(){
-
      return this.location;
-
     }
-/*
-            if(!isInternet && !isGPS){
-                //no provider
-            }
-            else{
-                this.canGetLocation = true;
-                if(isInternet){
-                    locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, distance, update_time, this);
-                    if (locationManager != null){
-                        location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
-                       if (location != null){
-                            latitude = location.getLatitude();
-                            longitude = location.getLongitude();
-                        }
-                    }
-                }
-
-                if(isGPS){
-                    locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, distance, update_time, this);
-                    if (locationManager != null){
-                        location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-                        if (location != null){
-                            latitude = location.getLatitude();
-                            longitude = location.getLongitude();
-                        }
-                    }
-                }
-
-            }*/
-
-
-
-
 
     public double GetLatitude(){
-
         return latitude;
 
     }
 
     public double GetLongitude(){
-
         return longitude;
     }
 

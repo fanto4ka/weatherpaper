@@ -10,6 +10,9 @@ import android.os.IBinder;
  */
 public class WallService extends Service {
 
+    ServiceHandler serviceHandler;
+    String response;
+
     public void onCreate() {
 
     }
@@ -18,8 +21,10 @@ public class WallService extends Service {
 
         SharedPreferences SP = getSharedPreferences("prefs",MODE_PRIVATE);
         String prefCity = SP.getString("city", "");
-        Parser Parser = new Parser(WallService.this);
-        Parser.execute();
+        serviceHandler = new ServiceHandler(WallService.this);
+        response = serviceHandler.ServiceHandlerCall();
+        //Parser Parser = new Parser(WallService.this);
+        //Parser.execute();
 
         return super.onStartCommand(intent, flags, startId);
     }
